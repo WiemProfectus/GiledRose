@@ -13,6 +13,7 @@ class GildedRoseTest {
         app.updateQuality();
         assertEquals("fixme", app.items[0].name);
     }
+
     @Test
     void agedBrieIncreasesInQuality() {
         Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
